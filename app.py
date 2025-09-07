@@ -5,13 +5,14 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
+    print('test_first_website...')
     return '''
     <!DOCTYPE html>
     <html lang="ko">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>올드제이림</title>
+        <title>oldjlim</title>
         <style>
             body {
                 font-family: 'Arial', sans-serif;
