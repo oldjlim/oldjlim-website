@@ -5,6 +5,8 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+visit_count = 0 #global variable
+
 @app.route('/')
 def hello():
     global visit_count
